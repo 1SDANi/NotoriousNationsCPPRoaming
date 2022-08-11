@@ -1,0 +1,37 @@
+{
+	"Key" :
+	{
+		"Vertical" :
+		{
+			"output" : "Vertical",
+			"sensitivity" : 5
+		},
+		"Horizontal" :
+		{
+			"output" : "Horizontal",
+			"sensitivity" : 5
+		}
+	},
+	"Mouse Wheel" : 
+	{
+		"Vertical" :
+		{
+			"output" : "Zoom",
+			"sensitivity" : 0.2
+		}
+	},
+	
+	"Mouse Button" :
+	{
+		"Left" :
+		{
+			"output" : "Select",
+			"sensitivity" : 1
+		},
+		"Right" :
+		{
+			"output" : "Cancel",
+			"sensitivity" : 1
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"Key" :
+	{
+		"Horizontal" :
+		{
+			"positive" : 3,
+			"negative" : 0,
+			"deadzone" : 0.01,
+			"invert" : false
+		},
+		"Vertical" :
+		{
+			"positive" : 22,
+			"negative" : 18,
+			"deadzone" : 0.01,
+			"invert" : false
+		}
+	},
+	
+	"Mouse Button" :
+	{
+		"Left" :
+		{
+			"positive" : 0,
+			"negative" : -1,
+			"deadzone" : 0.01,
+			"invert" : false
+		},
+		"Right" :
+		{
+			"positive" : 1,
+			"negative" : -1,
+			"deadzone" : 0.01,
+			"invert" : false
+		}
+	},
+	
+	"Mouse Wheel" :
+	{
+		"Vertical" :
+		{
+			"positive" : -1,
+			"negative" : 0,
+			"deadzone" : 0.01,
+			"invert" : false
+		},
+		
+		"Horizontal" :
+		{
+			"positive" : -1,
+			"negative" : 1,
+			"deadzone" : 0.01,
+			"invert" : false
+		}
+	}
+}

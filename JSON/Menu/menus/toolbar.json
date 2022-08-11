@@ -1,0 +1,582 @@
+{
+	"s_name": "Toolbar",
+	"s_type": "Toolbar",
+	"dict_i_vrbl_variables" : {
+		"0" : {
+			"s_name" : "area_height",
+			"s_type" : "Variable",
+			"s_value" : "window_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "4"
+				}
+			}
+		},
+		"1" : {
+			"s_name" : "namebox_height",
+			"s_type" : "Variable",
+			"s_value" : "area_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "4"
+				}
+			}
+		},
+		"2" : {
+			"s_name" : "iconbox_height",
+			"s_type" : "Variable",
+			"s_value" : "area_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "namebox_height"
+				}
+			}
+		},
+		"3" : {
+			"s_name" : "buffer",
+			"s_type" : "Variable",
+			"s_value" : "area_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "16"
+				}
+			}
+		},
+		"4" : {
+			"s_name" : "iconbox_size",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "2"
+				}
+			}
+		},
+		"5" : {
+			"s_name" : "namebox_size",
+			"s_type" : "Variable",
+			"s_value" : "namebox_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "2"
+				}
+			}
+		},
+		"6" : {
+			"s_name" : "namebox_top",
+			"s_type" : "Variable",
+			"s_value" : "window_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "namebox_size"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "namebox_size"
+				},
+				"2" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"7" : {
+			"s_name" : "iconbox_top",
+			"s_type" : "Variable",
+			"s_value" : "namebox_top",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "iconbox_size"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "iconbox_size"
+				},
+				"2" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"8" : {
+			"s_name" : "sprite_resolution",
+			"s_type" : "Variable",
+			"s_value" : "8.0"
+		},
+		"9" : {
+			"s_name" : "namebox_scale",
+			"s_type" : "Variable",
+			"s_value" : "namebox_size",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "sprite_resolution"
+				}
+			}
+		},
+		"10" : {
+			"s_name" : "iconbox_scale",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_size",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "sprite_resolution"
+				}
+			}
+		},
+		"11" : {
+			"s_name" : "namebox_bottom",
+			"s_type" : "Variable",
+			"s_value" : "window_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"12" : {
+			"s_name" : "iconbox_bottom",
+			"s_type" : "Variable",
+			"s_value" : "namebox_top",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"13" : {
+			"s_name" : "right",
+			"s_type" : "Variable",
+			"s_value" : "window_width",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"14" : {
+			"s_name" : "iconbox_top_edge_left",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_size",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"15" : {
+			"s_name" : "iconbox_bottom_edge_left",
+			"s_type" : "Variable",
+			"s_value" : "window_width",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "iconbox_size"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"16" : {
+			"s_name" : "iconbox_edge_length",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_scale",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "sprite_resolution"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "2.0"
+				},
+				"2" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "buffer"
+				},
+				"3" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "buffer"
+				},
+				"4" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "-1.0"
+				},
+				"5" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "window_width"
+				},
+				"6" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "sprite_resolution"
+				}
+			}
+		},
+		"17" : {
+			"s_name" : "toolbar_width",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_scale",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "sprite_resolution"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "right"
+				}
+			}
+		},
+		"18" : {
+			"s_name" : "toolbar_height",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_bottom",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "sprite_resolution"
+				}
+			}
+		},
+		"19" : {
+			"s_name" : "icon_size",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_height",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				},
+				"2" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"20" : {
+			"s_name" : "icon_resolution",
+			"s_type" : "Variable",
+			"s_value" : "32.0"
+		},
+		"21" : {
+			"s_name" : "icon_scale",
+			"s_type" : "Variable",
+			"s_value" : "icon_size",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "icon_resolution"
+				}
+			}
+		},
+		"22" : {
+			"s_name" : "iconbox_width",
+			"s_type" : "Variable",
+			"s_value" : "window_width",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"23" : {
+			"s_name" : "iconbox_height_bufferless",
+			"s_type" : "Variable",
+			"s_value" : "iconbox_bottom",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "iconbox_top"
+				}
+			}
+		},
+		"24" : {
+			"s_name" : "namebox_edge_length",
+			"s_type" : "Variable",
+			"s_value" : "namebox_scale",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "sprite_resolution"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "2.0"
+				},
+				"2" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "buffer"
+				},
+				"3" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "buffer"
+				},
+				"4" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Multiply",
+					"s_value" : "-1.0"
+				},
+				"5" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "window_width"
+				},
+				"6" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Divide",
+					"s_value" : "sprite_resolution"
+				}
+			}
+		},
+		"25" : {
+			"s_name" : "namebox_top_edge_left",
+			"s_type" : "Variable",
+			"s_value" : "namebox_size",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Add",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"26" : {
+			"s_name" : "namebox_bottom_edge_left",
+			"s_type" : "Variable",
+			"s_value" : "window_width",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "namebox_size"
+				},
+				"1" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "buffer"
+				}
+			}
+		},
+		"27" : {
+			"s_name" : "namebox_height_bufferless",
+			"s_type" : "Variable",
+			"s_value" : "namebox_bottom",
+			"dict_i_cltn_calculations" : {
+				"0" : {
+					"s_type" : "Calculation",
+					"s_operation" : "Subtract",
+					"s_value" : "namebox_top"
+				}
+			}
+		}
+	},
+	"s_buffer" : "buffer",
+	"s_scale" : "icon_scale",
+	"s_size" : "icon_size",
+	"s_resolution" : "icon_resolution",
+	"s_iconbox_x" : "buffer",
+	"s_iconbox_y" : "iconbox_top",
+	"s_iconbox_w" : "iconbox_width",
+	"s_iconbox_h" : "iconbox_height_bufferless",
+	"s_namebox_x" : "buffer",
+	"s_namebox_y" : "namebox_top",
+	"s_namebox_w" : "iconbox_width",
+	"s_namebox_h" : "namebox_height_bufferless",
+	"dict_i_sprt_sprites" : {
+		"0" : {
+			"s_name" : "iconbox_corner1",
+			"s_type" : "Sprite",
+			"s_x" : "buffer",
+			"s_y" : "iconbox_top",
+			"s_r" : "0.0",
+			"s_w" : "iconbox_scale",
+			"s_h" : "iconbox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"1" : {
+			"s_name" : "iconbox_corner2",
+			"s_type" : "Sprite",
+			"s_x" : "right",
+			"s_y" : "iconbox_top",
+			"s_r" : "90.0",
+			"s_w" : "iconbox_scale",
+			"s_h" : "iconbox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"2" : {
+			"s_name" : "iconbox_corner3",
+			"s_type" : "Sprite",
+			"s_x" : "right",
+			"s_y" : "iconbox_bottom",
+			"s_r" : "180.0",
+			"s_w" : "iconbox_scale",
+			"s_h" : "iconbox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"3" : {
+			"s_name" : "iconbox_corner4",
+			"s_type" : "Sprite",
+			"s_x" : "buffer",
+			"s_y" : "iconbox_bottom",
+			"s_r" : "270.0",
+			"s_w" : "iconbox_scale",
+			"s_h" : "iconbox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"4" : {
+			"s_name" : "iconbox_top_edge",
+			"s_type" : "Sprite",
+			"s_x" : "iconbox_top_edge_left",
+			"s_y" : "iconbox_top",
+			"s_r" : "0.0",
+			"s_w" : "iconbox_edge_length",
+			"s_h" : "iconbox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
+		},
+		"5" : {
+			"s_name" : "iconbox_bottom_edge",
+			"s_type" : "Sprite",
+			"s_x" : "iconbox_bottom_edge_left",
+			"s_y" : "iconbox_bottom",
+			"s_r" : "180.0",
+			"s_w" : "iconbox_edge_length",
+			"s_h" : "iconbox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
+		},
+		"6" : {
+			"s_name" : "namebox_corner1",
+			"s_type" : "Sprite",
+			"s_x" : "buffer",
+			"s_y" : "namebox_top",
+			"s_r" : "0.0",
+			"s_w" : "namebox_scale",
+			"s_h" : "namebox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"7" : {
+			"s_name" : "namebox_corner2",
+			"s_type" : "Sprite",
+			"s_x" : "right",
+			"s_y" : "namebox_top",
+			"s_r" : "90.0",
+			"s_w" : "namebox_scale",
+			"s_h" : "namebox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"8" : {
+			"s_name" : "namebox_corner3",
+			"s_type" : "Sprite",
+			"s_x" : "right",
+			"s_y" : "namebox_bottom",
+			"s_r" : "180.0",
+			"s_w" : "namebox_scale",
+			"s_h" : "namebox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"9" : {
+			"s_name" : "namebox_corner4",
+			"s_type" : "Sprite",
+			"s_x" : "buffer",
+			"s_y" : "namebox_bottom",
+			"s_r" : "270.0",
+			"s_w" : "namebox_scale",
+			"s_h" : "namebox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
+		},
+		"10" : {
+			"s_name" : "namebox_top_edge",
+			"s_type" : "Sprite",
+			"s_x" : "namebox_top_edge_left",
+			"s_y" : "namebox_top",
+			"s_r" : "0.0",
+			"s_w" : "namebox_edge_length",
+			"s_h" : "namebox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
+		},
+		"11" : {
+			"s_name" : "namebox_bottom_edge",
+			"s_type" : "Sprite",
+			"s_x" : "namebox_bottom_edge_left",
+			"s_y" : "namebox_bottom",
+			"s_r" : "180.0",
+			"s_w" : "namebox_edge_length",
+			"s_h" : "namebox_scale",
+			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
+		}
+	}
+}

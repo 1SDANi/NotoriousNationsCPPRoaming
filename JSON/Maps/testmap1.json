@@ -8,7 +8,52 @@
 		"0,0": {
 			"s_name": "Barcelona",
 			"s_type": "Tile",
-			"s_soil_cover": "Arctic"
+			"s_soil_cover": "Arctic",
+			"a_unit_units":
+			{
+				"0" :
+				{
+					"s_name": "Spearman",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training" : []
+				},
+				"1" :
+				{
+					"s_name": "Spearman",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training" : []
+				},
+				"2" :
+				{
+					"s_name": "Spearman",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training" : []
+				},
+				"3" :
+				{
+					"s_name": "Spearman",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training" : []
+				},
+				"4" :
+				{
+					"s_name": "Spearman",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training" : []
+				},
+				"5" :
+				{
+					"s_name": "Spearman",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training" : []
+				}
+			}
 		},
 		"0,1": {
 			"s_name": "Barcelona",

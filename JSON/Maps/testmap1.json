@@ -1,92 +1,190 @@
 {
 	"s_name": "Test Map 1",
-	"s_shape":"Flat",
+	"s_shape": "Flat",
 	"s_type": "Map",
 	"i_x": 2,
 	"i_y": 4,
+	"i_turn_player": 0,
+	"dict_i_s_turn_order": {
+		"0": "Spain",
+		"1": "France"
+	},
+	"dict_i_plyr_players": {
+		"0": {
+			"s_name": "Spain",
+			"s_adjective": "Spanish",
+			"b_invert_unit_gradient": false,
+			"dict_s_wrst_war_states": {
+				"France": "war_state_war"
+			},
+			"colr_primary": {
+				"s_red": 255,
+				"s_green": 255,
+				"s_blue": 0,
+				"s_alpha": 255
+			},
+			"colr_secondary": {
+				"s_red": 255,
+				"s_green": 0,
+				"s_blue": 0,
+				"s_alpha": 255
+			}
+		},
+		"1": {
+			"s_name": "France",
+			"s_adjective": "French",
+			"b_invert_unit_gradient": true,
+			"dict_s_wrst_war_states": {
+				"Spain": "war_state_war"
+			},
+			"colr_primary": {
+				"s_red": 0,
+				"s_green": 0,
+				"s_blue": 255,
+				"s_alpha": 255
+			},
+			"colr_secondary": {
+				"s_red": 255,
+				"s_green": 0,
+				"s_blue": 0,
+				"s_alpha": 255
+			}
+		}
+	},
 	"dict_vec2_tile_tiles": {
 		"0,0": {
-			"s_name": "Barcelona",
+			"s_name": "A",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Arctic",
-			"a_unit_units":
-			{
-				"0" :
-				{
-					"s_name": "Spearman",
+			"a_unit_units": {
+				"0": {
+					"s_name": "Archer",
+					"s_player": "Spain",
 					"s_type": "Unit",
-					"s_unit_type": "Spearman",
-					"a_s_training" : []
+					"s_unit_type": "Archer",
+					"a_s_training": []
 				},
-				"1" :
-				{
+				"1": {
 					"s_name": "Spearman",
+					"s_player": "Spain",
 					"s_type": "Unit",
 					"s_unit_type": "Spearman",
-					"a_s_training" : []
+					"a_s_training": []
 				},
-				"2" :
-				{
-					"s_name": "Spearman",
+				"2": {
+					"s_name": "Javelineer",
+					"s_player": "Spain",
 					"s_type": "Unit",
-					"s_unit_type": "Spearman",
-					"a_s_training" : []
+					"s_unit_type": "Javelineer",
+					"a_s_training": []
 				},
-				"3" :
-				{
-					"s_name": "Spearman",
+				"3": {
+					"s_name": "Chariot",
+					"s_player": "Spain",
 					"s_type": "Unit",
-					"s_unit_type": "Spearman",
-					"a_s_training" : []
+					"s_unit_type": "Chariot",
+					"a_s_training": []
 				},
-				"4" :
-				{
-					"s_name": "Spearman",
+				"4": {
+					"s_name": "Horseman",
+					"s_player": "Spain",
 					"s_type": "Unit",
-					"s_unit_type": "Spearman",
-					"a_s_training" : []
+					"s_unit_type": "Horseman",
+					"a_s_training": []
 				},
-				"5" :
-				{
-					"s_name": "Spearman",
+				"5": {
+					"s_name": "Siege Tower",
+					"s_player": "Spain",
 					"s_type": "Unit",
-					"s_unit_type": "Spearman",
-					"a_s_training" : []
+					"s_unit_type": "Siege Tower",
+					"a_s_training": []
 				}
 			}
 		},
 		"0,1": {
-			"s_name": "Barcelona",
+			"s_name": "B",
+			"s_player": "France",
 			"s_type": "Tile",
-			"s_soil_cover": "Badland"
+			"s_soil_cover": "Badland",
+			"a_unit_units": {
+				"0": {
+					"s_name": "Archer",
+					"s_player": "France",
+					"s_type": "Unit",
+					"s_unit_type": "Archer",
+					"a_s_training": []
+				},
+				"1": {
+					"s_name": "Spearman",
+					"s_player": "France",
+					"s_type": "Unit",
+					"s_unit_type": "Spearman",
+					"a_s_training": []
+				},
+				"2": {
+					"s_name": "Javelineer",
+					"s_player": "France",
+					"s_type": "Unit",
+					"s_unit_type": "Javelineer",
+					"a_s_training": []
+				},
+				"3": {
+					"s_name": "Chariot",
+					"s_player": "France",
+					"s_type": "Unit",
+					"s_unit_type": "Chariot",
+					"a_s_training": []
+				},
+				"4": {
+					"s_name": "Horseman",
+					"s_player": "France",
+					"s_type": "Unit",
+					"s_unit_type": "Horseman",
+					"a_s_training": []
+				},
+				"5": {
+					"s_name": "Siege Tower",
+					"s_player": "France",
+					"s_type": "Unit",
+					"s_unit_type": "Siege Tower",
+					"a_s_training": []
+				}
+			}
 		},
 		"0,2": {
-			"s_name": "Barcelona",
+			"s_name": "C",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Desert"
 		},
 		"0,3": {
-			"s_name": "Barcelona",
+			"s_name": "D",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Grassland"
 		},
 		"1,0": {
-			"s_name": "Barcelona",
+			"s_name": "E",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Prarie"
 		},
 		"1,1": {
-			"s_name": "Barcelona",
+			"s_name": "F",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Semidesert"
 		},
 		"1,2": {
-			"s_name": "Barcelona",
+			"s_name": "G",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Steppe"
 		},
 		"1,3": {
-			"s_name": "Barcelona",
+			"s_name": "H",
+			"s_player": "Spain",
 			"s_type": "Tile",
 			"s_soil_cover": "Tundra"
 		}

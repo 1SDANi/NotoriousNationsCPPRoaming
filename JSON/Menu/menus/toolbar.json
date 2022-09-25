@@ -466,6 +466,7 @@
 			"s_r" : "0.0",
 			"s_w" : "iconbox_scale",
 			"s_h" : "iconbox_scale",
+			"b_invert_gradient" : false,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"1" : {
@@ -476,6 +477,7 @@
 			"s_r" : "90.0",
 			"s_w" : "iconbox_scale",
 			"s_h" : "iconbox_scale",
+			"b_invert_gradient" : false,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"2" : {
@@ -486,6 +488,7 @@
 			"s_r" : "180.0",
 			"s_w" : "iconbox_scale",
 			"s_h" : "iconbox_scale",
+			"b_invert_gradient" : false,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"3" : {
@@ -496,6 +499,7 @@
 			"s_r" : "270.0",
 			"s_w" : "iconbox_scale",
 			"s_h" : "iconbox_scale",
+			"b_invert_gradient" : false,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"4" : {
@@ -506,6 +510,7 @@
 			"s_r" : "0.0",
 			"s_w" : "iconbox_edge_length",
 			"s_h" : "iconbox_scale",
+			"b_invert_gradient" : false,
 			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
 		},
 		"5" : {
@@ -516,6 +521,7 @@
 			"s_r" : "180.0",
 			"s_w" : "iconbox_edge_length",
 			"s_h" : "iconbox_scale",
+			"b_invert_gradient" : false,
 			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
 		},
 		"6" : {
@@ -526,6 +532,7 @@
 			"s_r" : "0.0",
 			"s_w" : "namebox_scale",
 			"s_h" : "namebox_scale",
+			"b_invert_gradient" : true,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"7" : {
@@ -536,6 +543,7 @@
 			"s_r" : "90.0",
 			"s_w" : "namebox_scale",
 			"s_h" : "namebox_scale",
+			"b_invert_gradient" : true,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"8" : {
@@ -546,6 +554,7 @@
 			"s_r" : "180.0",
 			"s_w" : "namebox_scale",
 			"s_h" : "namebox_scale",
+			"b_invert_gradient" : true,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"9" : {
@@ -556,6 +565,7 @@
 			"s_r" : "270.0",
 			"s_w" : "namebox_scale",
 			"s_h" : "namebox_scale",
+			"b_invert_gradient" : true,
 			"s_texture" : "\\JSON\\Menu\\textures\\Corner.png"
 		},
 		"10" : {
@@ -566,6 +576,7 @@
 			"s_r" : "0.0",
 			"s_w" : "namebox_edge_length",
 			"s_h" : "namebox_scale",
+			"b_invert_gradient" : true,
 			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
 		},
 		"11" : {
@@ -576,6 +587,7 @@
 			"s_r" : "180.0",
 			"s_w" : "namebox_edge_length",
 			"s_h" : "namebox_scale",
+			"b_invert_gradient" : true,
 			"s_texture" : "\\JSON\\Menu\\textures\\Edge.png"
 		}
 	}
